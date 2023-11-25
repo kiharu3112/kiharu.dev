@@ -2,10 +2,12 @@
     import { page } from "$app/stores";
 </script>
 <header>
-  <h1><a href="/">kiharu.dev</a></h1>
-  <a href="https://github.com/kiharu3112" target="_blank" rel="noopener noreferrer"><img src="github-mark.svg" alt="GitHub" /></a>
+  <div class="content-header">
+    <h1><a href="/">kiharu.dev</a></h1>
+    <a href="https://github.com/kiharu3112" target="_blank" rel="noopener noreferrer"><img src="github-mark.svg" alt="GitHub" /></a>
+  </div>
 </header>
-<div id="content">
+<div class="content">
   <slot/>
 </div>
 
@@ -33,13 +35,26 @@
         height: 1.5rem;
         margin-right: 0.5rem;
     }
-    #content {
+    .content-header {
         margin: 0 auto;
-        padding: 1rem;
+        padding: 0;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .content-header h1 a {
+        padding: 0;
+        margin: 0;
     }
     footer {
         margin-top: 2rem;
         text-align: center;
         color: #999;
+    }
+    .content {
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
     }
 </style>
