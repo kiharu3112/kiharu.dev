@@ -3,18 +3,19 @@
 	<div>
 		<h1>プロフィール</h1>
 		<ul>
-			<li>Name: Haruto Kijima</li>
-			<li>Age: 18</li>
-			<li>School: NITMC</li>
+			<li>Haruto Kijima</li>
+			<li>年齢: 18</li>
+			<li>所属: NITMC</li>
 			<li>github: <a href="https://github.com/kiharu3112">kiharu3112</a></li>
 		</ul>
 	</div>
 </div>
 <h2>趣味</h2>
 <ul>
-	<li>pyogramming</li>
-	<li>listen music(YouTube, SoundCloud, ...)</li>
-	<li>play game</li>
+	<li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
+  <li>Vtuberを見ること</li>
+	<li>ゲームをすること</li>
+  <li>プヨグラミング</li>
 </ul>
 
 <h2>創作物</h2>
