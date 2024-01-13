@@ -10,12 +10,13 @@
 		</ul>
 	</div>
 </div>
-<h2>趣味</h2>
+<h2>趣味・好きなもの</h2>
 <ul>
-	<li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
+  <li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
   <li>Vtuberを見ること</li>
-	<li>ゲームをすること</li>
+  <li>ゲームをすること</li>
   <li>プヨグラミング</li>
+  <li>MacOS, Fedora</li>
 </ul>
 
 <h2>創作物</h2>
@@ -62,18 +63,18 @@
 	</tr>
 	<tr>
 		<td>2023</td>
-		<td>中国地区高専コンピューターフェスティバル参加<br/>特別賞</td>
+		<td>
+			中国地区高専コンピューターフェスティバル参加 特別賞
+			<br />
+			<a href="https://www.procon.gr.jp/?page_id=78840" target="_blank">#procon34</a>参加
+			<br />
+			<a href="https://2023.rubyworld-conf.org/ja/" target="_blank">Ruby World Conference 2023</a
+			>参加
+		</td>
 	</tr>
 	<tr>
-		<td>2023</td>
-		<td><a href="https://www.procon.gr.jp/?page_id=78840" target="_blank">#procon34</a>参加</td>
-	</tr>
-	<tr>
-		<td>2023</td>
-		<td
-			><a href="https://2023.rubyworld-conf.org/ja/" target="_blank">Ruby World Conference 2023</a
-			>参加</td
-		>
+		<td>2024</td>
+		<td>第1回 Matz葉がにロボコン 参加(?)</td>
 	</tr>
 	<tr>
 		<td>2024~</td>
