@@ -64,9 +64,9 @@
 	<tr>
 		<td>2023</td>
 		<td>
-			中国地区高専コンピューターフェスティバル参加 特別賞
+			中国地区高専コンピューターフェスティバル参加
 			<br />
-			<a href="https://www.procon.gr.jp/?page_id=78840" target="_blank">#procon34</a>参加
+			<a href="https://www.procon.gr.jp/?page_id=78840" target="_blank">#procon34</a>参加 特別賞
 			<br />
 			<a href="https://2023.rubyworld-conf.org/ja/" target="_blank">Ruby World Conference 2023</a
 			>参加
