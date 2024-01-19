@@ -131,8 +131,8 @@
 	h3 {
 		color: #bca2ff;
 	}
-	h2::before{
-		content: "📌";
+	h2::before {
+		content: '📌';
 		margin-right: 0.5rem;
 	}
 	a {

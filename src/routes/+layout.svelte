@@ -1,12 +1,21 @@
 <script>
-	import { page } from "$app/stores";
+	import { page } from '$app/stores';
 </script>
+
 <header>
 	<div class="content-header">
 		<h1 class="title"><a href="/">*******</a></h1>
 		<div id="link">
-			<a href="/" aria-current={$page.url.pathname === "/"} class={$page.url.pathname === "/" ? "active" : ""}>Home</a>
-			<a href="/blog" aria-current={$page.url.pathname === "/blog"} class={$page.url.pathname === "/blog" ? "active" : ""}>Blog</a>
+			<a
+				href="/"
+				aria-current={$page.url.pathname === '/'}
+				class={$page.url.pathname === '/' ? 'active' : ''}>Home</a
+			>
+			<a
+				href="/blog"
+				aria-current={$page.url.pathname === '/blog'}
+				class={$page.url.pathname === '/blog' ? 'active' : ''}>Blog</a
+			>
 		</div>
 	</div>
 </header>
