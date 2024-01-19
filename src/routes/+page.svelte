@@ -1,15 +1,30 @@
-<div id="profile">
-	<img src="https://github.com/kiharu3112.png" alt="me icon" id="icon" />
-	<div>
-		<h1>プロフィール</h1>
-		<ul>
-			<li>Name: Haruto Kijima</li>
-			<li>Age: 18</li>
-			<li>School: NITMC</li>
-			<li>github: <a href="https://github.com/kiharu3112">kiharu3112</a></li>
-		</ul>
+<div id="about">
+	<div id="profile">
+		<img src="https://github.com/kiharu3112.png" alt="me icon" id="icon" />
+		<div>
+			<h1>プロフィール</h1>
+			<ul>
+				<li>Name: Haruto Kijima</li>
+				<li>Age: 18</li>
+				<li>School: NITMC</li>
+				<li>github: <a href="https://github.com/kiharu3112">kiharu3112</a></li>
+				<li>mail: me[at]kiharu.dev</li>
+			</ul>
+		</div>
 	</div>
 </div>
+<h2>好きなもの</h2>
+<ul>
+	<li>甘いもの</li>
+	<li>カフェイン</li>
+	<li>アルギニン</li>
+	<li><b><i>†歴史的経緯†</i></b>の歴史</li>
+</ul>
+<h2>苦手・嫌いなもの</h2>
+<ul>
+	<li>おでん</li>
+	<li>大変に変な環境での開発</li>
+</ul>
 <h2>趣味</h2>
 <ul>
 	<li>pyogramming</li>
@@ -80,6 +95,11 @@
 </table>
 
 <style>
+	#about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	#profile {
     display: flex;
 		margin: 2rem 0;

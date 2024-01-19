@@ -36,6 +36,7 @@
 		margin: 0 auto;
 		padding: 0;
 		width: 80%;
+		max-width: 900px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -53,6 +54,7 @@
 		margin: 0 auto;
 		padding: 0;
 		width: 80%;
+		max-width: 900px;
 		background-color: #333;
 		color: #fefefe;
 	}
