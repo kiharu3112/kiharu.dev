@@ -8,7 +8,7 @@
 </div>
 
 <footer>
-	<p>© 2023 kiharu.dev</p>
+	<p>© 2024 kiharu.dev</p>
 </footer>
 
 <style>

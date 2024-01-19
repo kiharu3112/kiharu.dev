@@ -4,9 +4,9 @@
 		<div>
 			<h1>プロフィール</h1>
 			<ul>
-				<li>Name: Haruto Kijima</li>
-				<li>Age: 18</li>
-				<li>School: NITMC</li>
+				<li>Haruto Kijima</li>
+				<li>年齢: 18</li>
+				<li>所属: NITMC</li>
 				<li>github: <a href="https://github.com/kiharu3112">kiharu3112</a></li>
 				<li>mail: me[at]kiharu.dev</li>
 			</ul>
@@ -26,10 +26,13 @@
 	<li>大変に変な環境での開発</li>
 </ul>
 <h2>趣味</h2>
+
 <ul>
-	<li>pyogramming</li>
-	<li>listen music(YouTube, SoundCloud, ...)</li>
-	<li>play game</li>
+  <li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
+  <li>Vtuberを見ること</li>
+  <li>ゲームをすること</li>
+  <li>プヨグラミング</li>
+  <li>MacOS, Fedora</li>
 </ul>
 
 <h2>創作物</h2>
@@ -38,11 +41,12 @@
 	<img
 		src="https://flashy-buckaroo-213.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F807403ae-affd-476f-95db-85cc30024b58%2F0d152d9f-0936-4641-b4e5-3b25e00da10a%2Ficon-144x144.png?table=block&id=eaf21e1b-a96a-4581-8a58-45808a48ddc3&spaceId=807403ae-affd-476f-95db-85cc30024b58&width=250&userId=&cache=v2"
 		alt="WashBoardのアイコン"
-		width="80px"
-		height="80px"
+		width="120px"
+		height="120px"
 	/>
 	<ul>
 		<li>学生寮の洗濯管理をスマートに</li>
+		<li>プロコン自由部門むけに他のメンバーと共同開発・試験運用したアプリ</li>
 		<li>
 			<a href="https://flashy-buckaroo-213.notion.site/WashBoard-eaf21e1ba96a45818a5845808a48ddc3"
 				>紹介ページ</a
@@ -75,18 +79,18 @@
 	</tr>
 	<tr>
 		<td>2023</td>
-		<td>中国地区高専コンピューターフェスティバル参加<br/>特別賞</td>
+		<td>
+			中国地区高専コンピューターフェスティバル参加
+			<br />
+			<a href="https://www.procon.gr.jp/?page_id=78840" target="_blank">#procon34</a>参加 特別賞
+			<br />
+			<a href="https://2023.rubyworld-conf.org/ja/" target="_blank">Ruby World Conference 2023</a
+			>参加
+		</td>
 	</tr>
 	<tr>
-		<td>2023</td>
-		<td><a href="https://www.procon.gr.jp/?page_id=78840" target="_blank">#procon34</a>参加</td>
-	</tr>
-	<tr>
-		<td>2023</td>
-		<td
-			><a href="https://2023.rubyworld-conf.org/ja/" target="_blank">Ruby World Conference 2023</a
-			>参加</td
-		>
+		<td>2024</td>
+		<td>第1回 Matz葉がにロボコン 参加(?)</td>
 	</tr>
 	<tr>
 		<td>2024~</td>
