@@ -28,11 +28,11 @@
 <h2>趣味</h2>
 
 <ul>
-  <li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
-  <li>Vtuberを見ること</li>
-  <li>ゲームをすること</li>
-  <li>プヨグラミング</li>
-  <li>MacOS, Fedora</li>
+	<li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
+	<li>Vtuberを見ること</li>
+	<li>ゲームをすること</li>
+	<li>プヨグラミング</li>
+	<li>MacOS, Fedora</li>
 </ul>
 
 <h2>創作物</h2>
@@ -105,11 +105,11 @@
 		align-items: center;
 	}
 	#profile {
-    display: flex;
+		display: flex;
 		margin: 2rem 0;
-    width: 100%;
+		width: 100%;
 		max-width: 35rem;
-    flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 	#icon {
 		width: 200px;
