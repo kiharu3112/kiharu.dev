@@ -105,11 +105,13 @@
 		align-items: center;
 	}
 	#profile {
-		display: flex;
 		margin: 2rem 0;
+		padding: 0.5rem, 0;
 		width: 100%;
+		display: flex;
 		max-width: 35rem;
 		flex-wrap: wrap;
+		align-items: center;
 	}
 	#icon {
 		width: 200px;
@@ -128,6 +130,10 @@
 	h2,
 	h3 {
 		color: #bca2ff;
+	}
+	h2::before{
+		content: "📌";
+		margin-right: 0.5rem;
 	}
 	a {
 		color: #eb82dc;
