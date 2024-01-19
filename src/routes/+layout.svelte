@@ -57,7 +57,7 @@
 		text-decoration: none;
 		color: #ddd;
 		font-weight: bold;
-		width: 4rem;
+		width: 4.5rem;
 		height: 1.6rem;
 		border-radius: 1rem 1rem 0 0;
 		display: flex;
