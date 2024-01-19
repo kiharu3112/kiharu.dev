@@ -1,6 +1,13 @@
+<script>
+	import { page } from "$app/stores";
+</script>
 <header>
 	<div class="content-header">
-		<h1><a href="/">*******</a></h1>
+		<h1 class="title"><a href="/">*******</a></h1>
+		<div id="link">
+			<a href="/" aria-current={$page.url.pathname === "/"} class={$page.url.pathname === "/" ? "active" : ""}>Home</a>
+			<a href="/blog" aria-current={$page.url.pathname === "/blog"} class={$page.url.pathname === "/blog" ? "active" : ""}>Blog</a>
+		</div>
 	</div>
 </header>
 <div class="content">
@@ -20,8 +27,6 @@
 	header {
 		margin: 0;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
 		height: 3rem;
 		color: #ddd;
 		background-color: #5e5184;
@@ -32,10 +37,32 @@
 		color: #ddd;
 		font-weight: bold;
 	}
+	#link {
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+		height: 100%;
+		padding: none;
+	}
+	#link a {
+		text-decoration: none;
+		color: #ddd;
+		font-weight: bold;
+		width: 4rem;
+		height: 1.6rem;
+		border-radius: 1rem 1rem 0 0;
+		display: flex;
+		justify-content: center;
+		padding: 0;
+	}
+	.active {
+		background-color: #333;
+	}
 	.content-header {
 		margin: 0 auto;
 		padding: 0;
 		width: 80%;
+		height: 100%;
 		max-width: 900px;
 		display: flex;
 		justify-content: space-between;
