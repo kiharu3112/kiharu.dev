@@ -63,6 +63,7 @@
 		display: flex;
 		justify-content: center;
 		padding: 0;
+		margin: 0 0.5rem;
 	}
 	.active {
 		background-color: #333;
