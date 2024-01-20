@@ -62,43 +62,45 @@
 </div>
 
 <h2>人生</h2>
-<table>
-	<th>year</th>
-	<th>event</th>
-	<tr>
-		<td>2004</td>
-		<td>生誕</td>
-	</tr>
-	<tr>
-		<td>2020</td>
-		<td><a href="https://www.matsue-ct.jp/" target="_blank">NITMatsue Colledge</a>入学</td>
-	</tr>
-	<tr>
-		<td>2022</td>
-		<td><a href="https://joken.dev" target="_blank">情報科学研究部</a>入部</td>
-	</tr>
-	<tr>
-		<td>2023</td>
-		<td>
-			中国地区高専コンピューターフェスティバル参加
-			<br />
-			<a href="https://www.procon.gr.jp/?page_id=78840" target="_blank">#procon34</a>参加 特別賞
-			<br />
-			<a href="https://2023.rubyworld-conf.org/ja/" target="_blank">Ruby World Conference 2023</a
-			>参加
-		</td>
-	</tr>
-	<tr>
-		<td>2024</td>
-		<td>第1回 Matz葉がにロボコン 参加(?)</td>
-	</tr>
-	<tr>
-		<td>2024~</td>
-		<td>なにかが起きるかもしれない！？</td>
-	</tr>
-</table>
+<ul class="life">
+	<li>
+		<span>2004</span>
+		生誕
+	</li>
+	<li>
+		<span>2020</span>
+		<a href="https://www.matsue-ct.jp/" target="_blank">NITMatsue Colledge</a>入学
+	</li>
+	<li>
+		<span>2021</span>
+		<a href="https://joken.dev" target="_blank">情報科学研究部</a>入部
+	</li>
+	<li>
+		<span>2023</span>
+		中国地区高専コンピューターフェスティバル参加
+		<a href="https://www.procon.gr.jp/?page_id=78840" target="_blank">#procon34</a>参加 特別賞
+		<a href="https://2023.rubyworld-conf.org/ja/" target="_blank">Ruby World Conference 2023</a>参加
+	</li>
+	<li>
+		<span>2024</span>
+		第1回 Matz葉がにロボコン 参加(?)
+	</li>
+	<li>
+		<span>2024~</span>
+		なにしようかな
+	</li>
+</ul>
 
 <style>
+	.life li span {
+		height: 100%;
+		display: inline-block;
+	}
+	.life li {
+		border: unset;
+		background-color: #4e2349;
+		padding: 0;
+	}
 	#about {
 		display: flex;
 		flex-direction: column;
@@ -137,18 +139,6 @@
 	}
 	a {
 		color: #eb82dc;
-	}
-	table {
-		border-collapse: collapse;
-		border: 1px solid #fefefe;
-	}
-	th,
-	td {
-		text-align: left;
-		border: 1px solid #fefefe;
-		padding: 1rem;
-		border-right: 0;
-		border-left: 0;
 	}
 	.works {
 		display: flex;

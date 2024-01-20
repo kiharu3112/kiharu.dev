@@ -74,6 +74,7 @@
 		width: 80%;
 		height: 100%;
 		max-width: 900px;
+		min-width: 300px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -92,6 +93,7 @@
 		padding: 0;
 		width: 80%;
 		max-width: 900px;
+		min-width: 300px;
 		background-color: #333;
 		color: #fefefe;
 	}
