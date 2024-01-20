@@ -35,32 +35,6 @@
 	<li>MacOS, Fedora</li>
 </ul>
 
-<h2>創作物</h2>
-<h3>WashBoard</h3>
-<div class="works">
-	<img
-		src="https://flashy-buckaroo-213.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F807403ae-affd-476f-95db-85cc30024b58%2F0d152d9f-0936-4641-b4e5-3b25e00da10a%2Ficon-144x144.png?table=block&id=eaf21e1b-a96a-4581-8a58-45808a48ddc3&spaceId=807403ae-affd-476f-95db-85cc30024b58&width=250&userId=&cache=v2"
-		alt="WashBoardのアイコン"
-		width="120px"
-		height="120px"
-	/>
-	<ul>
-		<li>学生寮の洗濯管理をスマートに</li>
-		<li>プロコン自由部門むけに他のメンバーと共同開発・試験運用したアプリ</li>
-		<li>
-			<a href="https://flashy-buckaroo-213.notion.site/WashBoard-eaf21e1ba96a45818a5845808a48ddc3"
-				>紹介ページ</a
-			>
-		</li>
-		<li>
-			<a href="https://washboard.pages.dev">アプリ</a>
-		</li>
-		<li>
-			<a href="https://github.com/mct-joken/washboard">ソースコード</a>
-		</li>
-	</ul>
-</div>
-
 <h2>人生</h2>
 <ul class="life">
 	<li>
@@ -129,8 +103,7 @@
 		margin: 0.5rem 0;
 	}
 	h1,
-	h2,
-	h3 {
+	h2 {
 		color: #bca2ff;
 	}
 	h2::before {
@@ -139,9 +112,5 @@
 	}
 	a {
 		color: #eb82dc;
-	}
-	.works {
-		display: flex;
-		align-items: center;
 	}
 </style>
