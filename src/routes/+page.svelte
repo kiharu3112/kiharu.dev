@@ -29,7 +29,6 @@
 
 <ul>
 	<li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
-	<li>Vtuberを見ること</li>
 	<li>ゲームをすること</li>
 	<li>プヨグラミング</li>
 	<li>MacOS, Fedora</li>
