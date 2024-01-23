@@ -24,6 +24,7 @@
 </div>
 
 <footer>
+  <p>このサイトはCloudflare Analyticsを使用しています。</p>
 	<p>© 2024 kiharu.dev</p>
 </footer>
 
