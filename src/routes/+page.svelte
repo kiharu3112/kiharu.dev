@@ -50,6 +50,12 @@
 		<a href="https://joken.dev" target="_blank">情報科学研究部</a>入部
 	</li>
 	<li>
+		<span>2022</span>
+		<a href="https://www.ruby-procon.net/docs/2023022500011/" target="_blank"
+			>中高生国際Rubyプログラミングコンテスト2022</a
+		>優秀賞／ピクシブ賞
+	</li>
+	<li>
 		<span>2023</span>
 		中国地区高専コンピューターフェスティバル参加
 		<a href="https://www.procon.gr.jp/?page_id=78840" target="_blank">#procon34</a>参加 特別賞
