@@ -26,7 +26,6 @@
 	<li>大変に変な環境での開発</li>
 </ul>
 <h2>趣味</h2>
-
 <ul>
 	<li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
 	<li>ゲームをすること</li>
