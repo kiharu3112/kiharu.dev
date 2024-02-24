@@ -76,7 +76,6 @@
 	}
 	.life li {
 		border: unset;
-		background-color: #4e2349;
 		padding: 0;
 	}
 	#about {
@@ -86,7 +85,7 @@
 	}
 	#profile {
 		margin: 2rem 0;
-		padding: 0.5rem, 0;
+		padding: 0.5rem 0;
 		width: 100%;
 		display: flex;
 		max-width: 35rem;
@@ -104,7 +103,7 @@
 		margin: 0;
 	}
 	li {
-		margin: 0.5rem 0;
+		margin-top: 0.5rem;
 	}
 	h1,
 	h2 {
