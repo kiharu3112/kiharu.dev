@@ -19,12 +19,15 @@
 		</div>
 	</div>
 </header>
-<div class="content">
-	<slot />
+<div class="content-background">
+	<div class="content">
+		<slot />
+	</div>
 </div>
 
 <footer>
 	<p>このサイトはSvelteKitを用いて作られています</p>
+  <p>このサイトはCloudflare Analyticsを使用しています。</p>
 	<p>© 2024 kiharu.dev</p>
 </footer>
 
@@ -32,7 +35,7 @@
 	:global(body) {
 		margin: 0;
 		padding: 0;
-		background-color: #333;
+		background-color: #5e5184;
 	}
 	header {
 		margin: 0;
@@ -52,7 +55,7 @@
 		justify-content: space-between;
 		align-items: end;
 		height: 100%;
-		padding: none;
+		padding: 0;
 	}
 	#link a {
 		text-decoration: none;
@@ -85,9 +88,23 @@
 		margin: 0;
 	}
 	footer {
-		margin-top: 2rem;
+		margin: 0;
+		padding: 0;
+		padding-top: 1rem;
 		text-align: center;
 		color: #999;
+		background-color: #333333;
+	}
+	footer p {
+		margin: 0;
+		padding: 0;
+	}
+	.content-background {
+		background-color: #333;
+		width: 100%;
+		height: 100%;
+		padding: 0;
+		margin: 0;
 	}
 	.content {
 		margin: 0 auto;

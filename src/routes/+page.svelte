@@ -26,10 +26,8 @@
 	<li>大変に変な環境での開発</li>
 </ul>
 <h2>趣味</h2>
-
 <ul>
 	<li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
-	<li>Vtuberを見ること</li>
 	<li>ゲームをすること</li>
 	<li>プヨグラミング</li>
 	<li>MacOS, Fedora</li>
@@ -48,6 +46,12 @@
 	<li>
 		<span>2021</span>
 		<a href="https://joken.dev" target="_blank">情報科学研究部</a>入部
+	</li>
+	<li>
+		<span>2022</span>
+		<a href="https://www.ruby-procon.net/docs/2023022500011/" target="_blank"
+			>中高生国際Rubyプログラミングコンテスト2022</a
+		>優秀賞／ピクシブ賞
 	</li>
 	<li>
 		<span>2023</span>
@@ -72,7 +76,6 @@
 	}
 	.life li {
 		border: unset;
-		background-color: #4e2349;
 		padding: 0;
 	}
 	#about {
@@ -82,7 +85,7 @@
 	}
 	#profile {
 		margin: 2rem 0;
-		padding: 0.5rem, 0;
+		padding: 0.5rem 0;
 		width: 100%;
 		display: flex;
 		max-width: 35rem;
@@ -100,7 +103,7 @@
 		margin: 0;
 	}
 	li {
-		margin: 0.5rem 0;
+		margin-top: 0.5rem;
 	}
 	h1,
 	h2 {
