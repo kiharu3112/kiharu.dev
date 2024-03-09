@@ -24,6 +24,7 @@
 </div>
 
 <footer>
+	<p>このサイトはSvelteKitを用いて作られています</p>
 	<p>© 2024 kiharu.dev</p>
 </footer>
 
