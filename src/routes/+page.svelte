@@ -5,7 +5,7 @@
 			<h1>プロフィール</h1>
 			<ul>
 				<li>Haruto Kijima</li>
-				<li>年齢: 18</li>
+				<li>年齢: 19</li>
 				<li>所属: NITMC</li>
 				<li>github: <a href="https://github.com/kiharu3112">kiharu3112</a></li>
 				<li>mail: me[at]kiharu.dev</li>
@@ -17,8 +17,7 @@
 <ul>
 	<li>甘いもの</li>
 	<li>カフェイン</li>
-	<li>アルギニン</li>
-	<li><b><i>†歴史的経緯†</i></b>の歴史</li>
+	<li>歴史的経緯</li>
 </ul>
 <h2>苦手・嫌いなもの</h2>
 <ul>
@@ -27,7 +26,7 @@
 </ul>
 <h2>趣味</h2>
 <ul>
-	<li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
+	<li>音楽を聴くこと(AppleMusic, YouTube, SoundCloud, ...)</li>
 	<li>ゲームをすること</li>
 	<li>プヨグラミング</li>
 	<li>MacOS, Fedora</li>

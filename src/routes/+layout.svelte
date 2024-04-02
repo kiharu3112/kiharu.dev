@@ -11,11 +11,6 @@
 				aria-current={$page.url.pathname === '/'}
 				class={$page.url.pathname === '/' ? 'active' : ''}>Home</a
 			>
-			<a
-				href="/blog"
-				aria-current={$page.url.pathname === '/blog'}
-				class={$page.url.pathname === '/blog' ? 'active' : ''}>Blog</a
-			>
 		</div>
 	</div>
 </header>
@@ -27,7 +22,7 @@
 
 <footer>
 	<p>このサイトはSvelteKitを用いて作られています</p>
-  <p>このサイトはCloudflare Analyticsを使用しています。</p>
+	<p>このサイトはCloudflare Analyticsを使用しています。</p>
 	<p>© 2024 kiharu.dev</p>
 </footer>
 
