@@ -3,6 +3,8 @@ import markdown from 'markdown-it';
 import path from 'path';
 import { promisify } from 'util';
 
+
+export const prerender = true;
 const readFile = promisify(fs.readFile);
 
 export async function load({ params }) {
@@ -12,7 +14,6 @@ export async function load({ params }) {
 	try {
 		data = await readFile(filePath, 'utf-8');
 	} catch (e) {
-		console.log(e);
 		return {
 			status: 404,
 			error: new Error(`Post not found`)
