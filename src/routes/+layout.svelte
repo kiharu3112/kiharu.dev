@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	export const prerender = true;
 	console.log($page.url.pathname);
 </script>
 

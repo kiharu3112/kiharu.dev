@@ -3,8 +3,6 @@ import markdown from 'markdown-it';
 import path from 'path';
 import { promisify } from 'util';
 
-// 外部ライブラリである markdown-it を使用してマークダウンをHTMLに変換
-
 const readFile = promisify(fs.readFile);
 
 export async function load({ params }) {
@@ -22,7 +20,6 @@ export async function load({ params }) {
 	}
 	const md = new markdown();
 	const content = md.render(data);
-	// 枠組みに提供するデータを返す
 	return {
 		content
 	};
