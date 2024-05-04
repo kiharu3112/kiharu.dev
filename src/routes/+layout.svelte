@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	console.log($page.url.pathname);
 </script>
 
 <header>
@@ -10,6 +11,11 @@
 				href="/"
 				aria-current={$page.url.pathname === '/'}
 				class={$page.url.pathname === '/' ? 'active' : ''}>Home</a
+			>
+			<a
+				href="/post"
+				aria-current={$page.url.pathname === '/post'}
+				class={$page.url.pathname.startsWith('/post') ? 'active' : ''}>Post</a
 			>
 		</div>
 	</div>
