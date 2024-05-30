@@ -19,6 +19,7 @@
 	main h1 {
 		font-size: 2.5rem;
 		margin-bottom: 1rem;
+		text-align: center;
 	}
 	main p {
 		font-size: 1rem;
