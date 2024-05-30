@@ -1,3 +1,8 @@
+---
+title: Hello W0rld
+date: '2024-03-04.23:40'
+---
+
 # Hello World!
 
 記念すべき初回の記事
@@ -20,7 +25,7 @@
 
 ### h3
 
-| And this is | A table |
+| And this is | A table ||
 | ----------- | ------- | --- |
 | With two    | columns | `   |
 
