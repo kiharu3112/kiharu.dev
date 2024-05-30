@@ -37,6 +37,10 @@
 		margin: 0;
 		padding: 0;
 		background-color: #5e5184;
+		--shiki-dark-bg: #181421;
+	}
+	:root {
+		--shiki-dark-bg: #181421;
 	}
 	header {
 		margin: 0;
