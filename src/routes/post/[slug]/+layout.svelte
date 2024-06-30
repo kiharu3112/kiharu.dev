@@ -1,6 +1,6 @@
 <script>
 	import '$lib/markdown.css';
-  export const prerender = true
+	export const prerender = true;
 </script>
 
 <slot />

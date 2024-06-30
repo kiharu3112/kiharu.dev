@@ -5,13 +5,12 @@ import markdown from 'markdown-it';
 import path from 'path';
 import { promisify } from 'util';
 
-
 export const prerender = true;
 const readFile = promisify(fs.readFile);
 const md = new markdown();
 md.use(
 	await Shiki({
-		theme: 'ayu-dark',
+		theme: 'ayu-dark'
 	})
 );
 export async function load({ params }) {

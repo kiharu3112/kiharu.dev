@@ -24,7 +24,7 @@
 	main p {
 		font-size: 1rem;
 		color: #d9d9d9;
-		width: 100%	;
+		width: 100%;
 		text-align: left;
 	}
 	article {
