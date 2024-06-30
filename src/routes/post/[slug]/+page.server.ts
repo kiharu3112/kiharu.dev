@@ -10,7 +10,7 @@ const readFile = promisify(fs.readFile);
 const md = new markdown();
 md.use(
 	await Shiki({
-		theme: 'ayu-dark'
+		theme: 'github-dark'
 	})
 );
 export async function load({ params }) {
