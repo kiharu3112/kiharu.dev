@@ -25,7 +25,7 @@ date: '2024-03-04.23:40'
 
 ### h3
 
-| And this is | A table ||
+| And this is | A table |     |
 | ----------- | ------- | --- |
 | With two    | columns | `   |
 
@@ -41,6 +41,5 @@ date: '2024-03-04.23:40'
 ## 画像
 
 ![私のロゴ画像](https://dl.kiharu.dev/74781355.jpeg)
-
 
 ![](https://upload.wikimedia.org/wikipedia/commons/5/5e/%22The_Star-Spangled_Banner%22_-_Choral_with_band_accompaniment_-_United_States_Army_Field_Band.oga)
