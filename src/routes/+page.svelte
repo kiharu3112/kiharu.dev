@@ -101,5 +101,9 @@
 	}
 	a {
 		color: #eb82dc;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
 	}
 </style>
