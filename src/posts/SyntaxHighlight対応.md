@@ -42,7 +42,7 @@ def hello_world():
 
 ```typescript
 function greet(name: string): string {
-	return `Hello, ${name}!`;
+    return `Hello, ${name}!`;
 }
 ```
 
