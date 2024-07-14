@@ -7,7 +7,7 @@
 				<li>kiharu</li>
 				<li>年齢: 19</li>
 				<li>所属: NITMC</li>
-				<li>github: <a href="https://github.com/kiharu3112">kiharu3112</a></li>
+				<li>github: <a href="https://dl.kiharu.dev/kiharu-icon.jpeg">kiharu3112</a></li>
 				<li>mail: me[at]kiharu.dev</li>
 			</ul>
 		</div>

@@ -13,8 +13,12 @@ md.use(
 		theme: 'github-dark'
 	})
 );
-export async function load({ params }) {
-	const { slug } = params;
+type Param = {
+  slug: string;
+}
+export async function load({ params }: { params: Param }) {
+  console.log(params);
+  const { slug } = params;
 	const filePath = path.resolve('src/posts', `${slug}.md`);
 	let data: string = '';
 	try {
