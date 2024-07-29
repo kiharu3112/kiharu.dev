@@ -23,7 +23,7 @@ importers:
         version: 1.11.1
       '@sveltejs/adapter-cloudflare':
         specifier: ^4.4.0
-        version: 4.6.1(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(wrangler@3.57.1(@cloudflare/workers-types@4.20240620.0))
+        version: 4.7.0(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(wrangler@3.57.1(@cloudflare/workers-types@4.20240725.0))
       '@sveltejs/adapter-node':
         specifier: ^5.0.1
         version: 5.2.0(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))
@@ -183,8 +183,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cloudflare/workers-types@4.20240620.0':
-    resolution: {integrity: sha512-CQD8YS6evRob7LChvIX3gE3zYo0KVgaLDOu1SwNP1BVIS2Sa0b+FC8S1e1hhrNN8/E4chYlVN+FDAgA4KRDUEQ==}
+  '@cloudflare/workers-types@4.20240725.0':
+    resolution: {integrity: sha512-L6T/Bg50zm9IIACQVQ0CdVcQL+2nLkRXdPz6BsXF3SlzgjyWR5ndVctAbfr/HLV7aKYxWnnEZsIORsTWb+FssA==}
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -765,8 +765,8 @@ packages:
   '@shikijs/transformers@1.11.1':
     resolution: {integrity: sha512-e6DUvZRylv+V8htF5q3ZuNyPaxJYQnsLyTd2S/K6ePs8t132NJS82LG2vARmtfSFP3I3CcBXfJ73FaCgI9kAMg==}
 
-  '@sveltejs/adapter-cloudflare@4.6.1':
-    resolution: {integrity: sha512-wENN4un6VC7kWLXyIcPX1VPpjyTxGEenEcaLsLCci0fuLZRT0Gsx+g0eV1k1IA+NznKkxd06XxfcqY2xhYDu/A==}
+  '@sveltejs/adapter-cloudflare@4.7.0':
+    resolution: {integrity: sha512-8K2Bw7ykLfIypqFZ8CvNsi0vvM9iWyWsuCGcuTwW6Z7FF+EJNe3V5UJwdXlz20AvdPRZ00S/0XF6Ns3iwBWcfw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^3.28.4
@@ -2381,7 +2381,7 @@ snapshots:
   '@cloudflare/workerd-windows-64@1.20240512.0':
     optional: true
 
-  '@cloudflare/workers-types@4.20240620.0': {}
+  '@cloudflare/workers-types@4.20240725.0': {}
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -2771,13 +2771,13 @@ snapshots:
     dependencies:
       shiki: 1.11.1
 
-  '@sveltejs/adapter-cloudflare@4.6.1(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(wrangler@3.57.1(@cloudflare/workers-types@4.20240620.0))':
+  '@sveltejs/adapter-cloudflare@4.7.0(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(wrangler@3.57.1(@cloudflare/workers-types@4.20240725.0))':
     dependencies:
-      '@cloudflare/workers-types': 4.20240620.0
+      '@cloudflare/workers-types': 4.20240725.0
       '@sveltejs/kit': 2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0))
       esbuild: 0.21.5
       worktop: 0.8.0-next.18
-      wrangler: 3.57.1(@cloudflare/workers-types@4.20240620.0)
+      wrangler: 3.57.1(@cloudflare/workers-types@4.20240725.0)
 
   '@sveltejs/adapter-node@5.2.0(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))':
     dependencies:
@@ -4276,7 +4276,7 @@ snapshots:
       mrmime: 2.0.0
       regexparam: 3.0.0
 
-  wrangler@3.57.1(@cloudflare/workers-types@4.20240620.0):
+  wrangler@3.57.1(@cloudflare/workers-types@4.20240725.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.2
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
@@ -4293,7 +4293,7 @@ snapshots:
       source-map: 0.6.1
       xxhash-wasm: 1.0.2
     optionalDependencies:
-      '@cloudflare/workers-types': 4.20240620.0
+      '@cloudflare/workers-types': 4.20240725.0
       fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
