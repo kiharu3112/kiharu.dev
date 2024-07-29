@@ -20,7 +20,7 @@ importers:
         version: 1.45.3
       '@shikijs/markdown-it':
         specifier: ^1.6.0
-        version: 1.11.1
+        version: 1.12.0
       '@sveltejs/adapter-cloudflare':
         specifier: ^4.4.0
         version: 4.6.1(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(wrangler@3.57.1(@cloudflare/workers-types@4.20240620.0))
@@ -756,14 +756,14 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@shikijs/core@1.11.1':
-    resolution: {integrity: sha512-Qsn8h15SWgv5TDRoDmiHNzdQO2BxDe86Yq6vIHf5T0cCvmfmccJKIzHtep8bQO9HMBZYCtCBzaXdd1MnxZBPSg==}
+  '@shikijs/core@1.12.0':
+    resolution: {integrity: sha512-mc1cLbm6UQ8RxLc0dZES7v5rkH+99LxQp/ZvTqV3NLyYsO/fD6JhEflP1H5b2SDq9gI0+0G36AVZWxvounfR9w==}
 
-  '@shikijs/markdown-it@1.11.1':
-    resolution: {integrity: sha512-1ih2yvuAUWBr8BLSqt70R4a7VvYqCGnBrjmnSRMMdLudrKi9l3pr3T+ypL4CLb6J5qc/iy2QthUZAEJ+hOvZng==}
+  '@shikijs/markdown-it@1.12.0':
+    resolution: {integrity: sha512-SRtbn4bsZPr0ogwxWRmCPshjYh3pfXltWLfUTWKm4RRxYShiIsQTq42bEEOjP43SNVQNiVi1S+zSnDtt5+mSnA==}
 
-  '@shikijs/transformers@1.11.1':
-    resolution: {integrity: sha512-e6DUvZRylv+V8htF5q3ZuNyPaxJYQnsLyTd2S/K6ePs8t132NJS82LG2vARmtfSFP3I3CcBXfJ73FaCgI9kAMg==}
+  '@shikijs/transformers@1.12.0':
+    resolution: {integrity: sha512-ZS6RzDCWbnDljViMaeuraGaoMesCzDxzO2Slhpvic6j+Wqq4RXfQgb2ITTSrtBjv2HGCLP22mvXydtWCOKea8g==}
 
   '@sveltejs/adapter-cloudflare@4.6.1':
     resolution: {integrity: sha512-wENN4un6VC7kWLXyIcPX1VPpjyTxGEenEcaLsLCci0fuLZRT0Gsx+g0eV1k1IA+NznKkxd06XxfcqY2xhYDu/A==}
@@ -1910,8 +1910,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shiki@1.11.1:
-    resolution: {integrity: sha512-VHD3Q0EBXaaa245jqayBe5zQyMQUdXBFjmGr9MpDaDpAKRMYn7Ff00DM5MLk26UyKjnml3yQ0O2HNX7PtYVNFQ==}
+  shiki@1.12.0:
+    resolution: {integrity: sha512-BuAxWOm5JhRcbSOl7XCei8wGjgJJonnV0oipUupPY58iULxUGyHhW5CF+9FRMuM1pcJ5cGEJGll1LusX6FwpPA==}
 
   siginfo@2.0.0:
     resolution: {integrity: sha512-ybx0WO1/8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn/Es1zhrrCHu7g==}
@@ -2757,19 +2757,19 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.19.1':
     optional: true
 
-  '@shikijs/core@1.11.1':
+  '@shikijs/core@1.12.0':
     dependencies:
       '@types/hast': 3.0.4
 
-  '@shikijs/markdown-it@1.11.1':
+  '@shikijs/markdown-it@1.12.0':
     dependencies:
-      '@shikijs/transformers': 1.11.1
+      '@shikijs/transformers': 1.12.0
       markdown-it: 14.1.0
-      shiki: 1.11.1
+      shiki: 1.12.0
 
-  '@shikijs/transformers@1.11.1':
+  '@shikijs/transformers@1.12.0':
     dependencies:
-      shiki: 1.11.1
+      shiki: 1.12.0
 
   '@sveltejs/adapter-cloudflare@4.6.1(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(svelte@4.2.18)(vite@5.3.5(@types/node@22.0.0)))(wrangler@3.57.1(@cloudflare/workers-types@4.20240620.0))':
     dependencies:
@@ -3992,9 +3992,9 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shiki@1.11.1:
+  shiki@1.12.0:
     dependencies:
-      '@shikijs/core': 1.11.1
+      '@shikijs/core': 1.12.0
       '@types/hast': 3.0.4
 
   siginfo@2.0.0: {}
