@@ -14,11 +14,10 @@ md.use(
 	})
 );
 type Param = {
-  slug: string;
-}
+	slug: string;
+};
 export async function load({ params }: { params: Param }) {
-  console.log(params);
-  const { slug } = params;
+	const { slug } = params;
 	const filePath = path.resolve('src/posts', `${slug}.md`);
 	let data: string = '';
 	try {

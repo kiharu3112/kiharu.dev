@@ -1,13 +1,13 @@
 <div id="about">
 	<div id="profile">
-		<img src="https://github.com/kiharu3112.png" alt="me icon" id="icon" />
+		<img src="https://dl.kiharu.dev/kiharu-icon.jpeg" alt="me icon" id="icon" />
 		<div>
 			<h1>プロフィール</h1>
 			<ul>
 				<li>kiharu</li>
 				<li>年齢: 19</li>
 				<li>所属: NITMC</li>
-				<li>github: <a href="https://dl.kiharu.dev/kiharu-icon.jpeg">kiharu3112</a></li>
+				<li>github: <a href="https://github.com/kiharu3112" target="_blank">kiharu3112</a></li>
 				<li>mail: me[at]kiharu.dev</li>
 			</ul>
 		</div>
@@ -29,6 +29,17 @@
 	<li>音楽を聴くこと(YouTube, SoundCloud, ...)</li>
 	<li>ゲームをすること</li>
 	<li>プヨグラミング</li>
+</ul>
+
+<h2>好きなキャラクター</h2>
+<ul>
+	<li>
+		暁山瑞希(Akiyama Mizuki)
+		<ul>
+			<li><a href="https://pjsekai.sega.jp/character/unite05/mizuki/index.html">official</a></li>
+			<li><a href="https://projectsekai.fandom.com/wiki/Akiyama_Mizuki" target="_blank">fandom</a></li>
+		</ul>
+	</li>
 </ul>
 
 <h2>人生</h2>
