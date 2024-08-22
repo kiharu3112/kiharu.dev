@@ -12,19 +12,24 @@
 }
 .markdown-body h1,
 h2 {
-	color: #bca2ff;
+	color: #fff;
 }
 .markdown-body h1 {
 	font-size: 2rem;
 }
+.markdown-body h1::before {
+  content: '#';
+  margin-right: 0.5rem;
+  color: #7c7887;
+}
 .markdown-body h2::before {
-	content: '📌';
+	content: '##';
 	margin-right: 0.5rem;
+  color: #9c68a1;
 }
 .markdown-body a {
 	color: #eb82dc;
 }
-
 .markdown-body ul {
 	margin: 1rem 0;
 }

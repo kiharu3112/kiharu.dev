@@ -26,9 +26,9 @@ date: '2024-03-04.23:40'
 
 ### h3
 
-| And this is | A table |     |
-| ----------- | ------- | --- |
-| With two    | columns | `   |
+| And this is | A table |
+| ----------- | ------- |
+| With two    | columns |
 
 - This is a list
 - With two items
