@@ -22,7 +22,7 @@
 <h2>苦手・嫌いなもの</h2>
 <ul>
 	<li>おでん</li>
-	<li>大変に変な環境での開発</li>
+  <li>辛い食べ物</li>
 </ul>
 <h2>趣味</h2>
 <ul>
@@ -42,40 +42,8 @@
 	</li>
 </ul>
 
-<h2>人生</h2>
-<ul class="life">
-	<li>
-		<span>2004</span>
-		生誕
-	</li>
-	<li>
-		<span>2020</span>
-		<a href="https://www.matsue-ct.jp/" target="_blank">NITMatsue Colledge</a>入学
-	</li>
-	<li>
-		<span>2021</span>
-		<a href="https://joken.dev" target="_blank">情報科学研究部</a>入部
-	</li>
-	<li>
-		<span>2023</span>
-		中国地区高専コンピューターフェスティバル参加
-	</li>
-	<li>
-		<span>2024~</span>
-		卒検頑張る
-	</li>
-</ul>
-
 <style>
-	.life li span {
-		height: 100%;
-		display: inline-block;
-	}
-	.life li {
-		border: unset;
-		padding: 0;
-	}
-	#about {
+  #about {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -102,12 +70,10 @@
 	li {
 		margin-top: 0.5rem;
 	}
-	h1,
-	h2 {
+	h1 {
 		color: #bca2ff;
 	}
 	h2::before {
-		content: '📌';
 		margin-right: 0.5rem;
 	}
 	a {
