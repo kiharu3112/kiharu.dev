@@ -71,7 +71,7 @@ importers:
         version: 4.0.5(picomatch@4.0.2)(svelte@4.2.19)(typescript@5.6.3)
       tslib:
         specifier: ^2.6.2
-        version: 2.7.0
+        version: 2.8.0
       typescript:
         specifier: ^5.4.5
         version: 5.6.3
@@ -1818,9 +1818,6 @@ packages:
     engines: {node: '>=16'}
     peerDependencies:
       typescript: '>=4.2.0'
-
-  tslib@2.7.0:
-    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
   tslib@2.8.0:
     resolution: {integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==}
@@ -3586,8 +3583,6 @@ snapshots:
   ts-api-utils@1.3.0(typescript@5.6.3):
     dependencies:
       typescript: 5.6.3
-
-  tslib@2.7.0: {}
 
   tslib@2.8.0: {}
 
