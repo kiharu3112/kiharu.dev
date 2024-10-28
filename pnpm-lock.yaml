@@ -23,7 +23,7 @@ importers:
         version: 1.15.1
       '@sveltejs/adapter-cloudflare':
         specifier: ^4.4.0
-        version: 4.7.3(@sveltejs/kit@2.7.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(wrangler@3.57.1(@cloudflare/workers-types@4.20241011.0))
+        version: 4.7.4(@sveltejs/kit@2.7.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(wrangler@3.57.1(@cloudflare/workers-types@4.20241022.0))
       '@sveltejs/adapter-node':
         specifier: ^5.0.1
         version: 5.2.8(@sveltejs/kit@2.7.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))
@@ -183,8 +183,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cloudflare/workers-types@4.20241011.0':
-    resolution: {integrity: sha512-emwBnuFB/2lS1z6NXAeBqrSL8Xwnr7YpgdLuchOmgu/igqBsLLNPBb4Qmgh3neFWUe9wbzQyx030836YF3c3Xw==}
+  '@cloudflare/workers-types@4.20241022.0':
+    resolution: {integrity: sha512-1zOAw5QIDKItzGatzCrEpfLOB1AuMTwVqKmbw9B9eBfCUGRFNfJYMrJxIwcse9EmKahsQt2GruqU00pY/GyXgg==}
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -690,8 +690,8 @@ packages:
   '@shikijs/transformers@1.15.1':
     resolution: {integrity: sha512-PPWwXJTO8Zd04Y9Xy3zfBUN4K+kZ8fkpAnMXOJWBt4FjhyMQruVEOGuUDWtVO9TbMM26pFCXlpnXeJabkxGC5g==}
 
-  '@sveltejs/adapter-cloudflare@4.7.3':
-    resolution: {integrity: sha512-mHw0Jvd+74jj8fkduA8jrVXgsCY3+NwDc7FrDUiwU1Qe5QEuqPUab8Lv+np+4afEuMtFNytxUJsiiWlNN2w10w==}
+  '@sveltejs/adapter-cloudflare@4.7.4':
+    resolution: {integrity: sha512-hKvWAfCQLzyNBunXEm5T+yyVfbQ+QNqnyqI0+lDoVYNQ58Yg/EPLEQIBS5aNpZgaEuBtY2tnegLsoPS8ZRcaIg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^3.28.4
@@ -873,6 +873,11 @@ packages:
 
   acorn@8.13.0:
     resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.14.0:
+    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -2083,7 +2088,7 @@ snapshots:
   '@cloudflare/workerd-windows-64@1.20240512.0':
     optional: true
 
-  '@cloudflare/workers-types@4.20241011.0': {}
+  '@cloudflare/workers-types@4.20241022.0': {}
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -2424,13 +2429,13 @@ snapshots:
     dependencies:
       shiki: 1.15.1
 
-  '@sveltejs/adapter-cloudflare@4.7.3(@sveltejs/kit@2.7.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(wrangler@3.57.1(@cloudflare/workers-types@4.20241011.0))':
+  '@sveltejs/adapter-cloudflare@4.7.4(@sveltejs/kit@2.7.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(wrangler@3.57.1(@cloudflare/workers-types@4.20241022.0))':
     dependencies:
-      '@cloudflare/workers-types': 4.20241011.0
+      '@cloudflare/workers-types': 4.20241022.0
       '@sveltejs/kit': 2.7.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1))
       esbuild: 0.21.5
       worktop: 0.8.0-next.18
-      wrangler: 3.57.1(@cloudflare/workers-types@4.20241011.0)
+      wrangler: 3.57.1(@cloudflare/workers-types@4.20241022.0)
 
   '@sveltejs/adapter-node@5.2.8(@sveltejs/kit@2.7.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))(svelte@4.2.19)(vite@5.4.10(@types/node@22.8.1)))':
     dependencies:
@@ -2653,11 +2658,13 @@ snapshots:
 
   acorn-walk@8.3.4:
     dependencies:
-      acorn: 8.13.0
+      acorn: 8.14.0
 
   acorn@8.12.1: {}
 
   acorn@8.13.0: {}
+
+  acorn@8.14.0: {}
 
   ajv@6.12.6:
     dependencies:
@@ -3238,7 +3245,7 @@ snapshots:
   miniflare@3.20240512.0:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      acorn: 8.13.0
+      acorn: 8.14.0
       acorn-walk: 8.3.4
       capnp-ts: 0.7.0
       exit-hook: 2.2.1
@@ -3694,7 +3701,7 @@ snapshots:
       mrmime: 2.0.0
       regexparam: 3.0.0
 
-  wrangler@3.57.1(@cloudflare/workers-types@4.20241011.0):
+  wrangler@3.57.1(@cloudflare/workers-types@4.20241022.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.2
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
@@ -3711,7 +3718,7 @@ snapshots:
       source-map: 0.6.1
       xxhash-wasm: 1.0.2
     optionalDependencies:
-      '@cloudflare/workers-types': 4.20241011.0
+      '@cloudflare/workers-types': 4.20241022.0
       fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
