@@ -54,3 +54,7 @@ h2 {
 .markdown-body a:hover {
 	text-decoration: underline;
 }
+
+.markdown-body img {
+  width: 100%;
+}
