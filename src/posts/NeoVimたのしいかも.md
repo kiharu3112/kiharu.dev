@@ -30,6 +30,8 @@ LSPの設定に[coc.nvim](https://github.com/neoclide/coc.nvim)、ファイラ�
 いろんなところからコピペしてきたようなコードなので、参考にはしないでください。
 あと、全然間違えていると思います。許してね。 bye~👋
 
+[GitHub](https://github.com/kiharu3112/ncon)
+
 ```vim
 set encoding=utf-8
 set number
