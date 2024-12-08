@@ -32,7 +32,7 @@ importers:
         version: 2.9.0(@sveltejs/vite-plugin-svelte@4.0.2(svelte@5.2.11)(vite@5.4.11(@types/node@22.10.1)))(svelte@5.2.11)(vite@5.4.11(@types/node@22.10.1))
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^4.3.0
-        version: 4.3.0(prettier@3.3.3)
+        version: 4.3.0(prettier@3.4.2)
       '@types/markdown-it':
         specifier: ^14.1.1
         version: 14.1.2
@@ -59,10 +59,10 @@ importers:
         version: 4.0.3
       prettier:
         specifier: ^3.2.5
-        version: 3.3.3
+        version: 3.4.2
       prettier-plugin-svelte:
         specifier: ^3.2.3
-        version: 3.3.2(prettier@3.3.3)(svelte@5.2.11)
+        version: 3.3.2(prettier@3.4.2)(svelte@5.2.11)
       svelte:
         specifier: ^5.0.0
         version: 5.2.11
@@ -1889,8 +1889,8 @@ packages:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2972,7 +2972,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.3.3)':
+  '@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.4.2)':
     dependencies:
       '@babel/generator': 7.17.7
       '@babel/parser': 7.23.6
@@ -2980,7 +2980,7 @@ snapshots:
       '@babel/types': 7.17.0
       javascript-natural-sort: 0.7.1
       lodash: 4.17.21
-      prettier: 3.3.3
+      prettier: 3.4.2
     transitivePeerDependencies:
       - supports-color
 
@@ -3930,12 +3930,12 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-svelte@3.3.2(prettier@3.3.3)(svelte@5.2.11):
+  prettier-plugin-svelte@3.3.2(prettier@3.4.2)(svelte@5.2.11):
     dependencies:
-      prettier: 3.3.3
+      prettier: 3.4.2
       svelte: 5.2.11
 
-  prettier@3.3.3: {}
+  prettier@3.4.2: {}
 
   printable-characters@1.0.42: {}
 
