@@ -20,7 +20,7 @@
 		"@sveltejs/adapter-cloudflare": "^4.4.0",
 		"@sveltejs/adapter-node": "^5.0.1",
 		"@sveltejs/kit": "^2.5.10",
-		"@trivago/prettier-plugin-sort-imports": "^4.3.0",
+		"@trivago/prettier-plugin-sort-imports": "^5.0.0",
 		"@types/markdown-it": "^14.1.1",
 		"@typescript-eslint/eslint-plugin": "^8.0.0",
 		"@typescript-eslint/parser": "^8.0.0",
@@ -35,13 +35,13 @@
 		"svelte-check": "^4.0.0",
 		"tslib": "^2.6.2",
 		"typescript": "^5.4.5",
-		"vite": "^5.2.11",
+		"vite": "^6.0.0",
 		"vitest": "^2.0.0"
 	},
 	"type": "module",
 	"packageManager": "pnpm@9.15.0",
 	"dependencies": {
-		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"markdown-it": "^14.1.0"
 	}
 }
