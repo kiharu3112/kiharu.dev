@@ -1,7 +1,7 @@
 ---
 id: 4
 title: NeoVimたのしいかも
-date: '2024-10-30.23:40'
+date: '2024-12-25.0:25'
 ---
 
 
@@ -19,6 +19,7 @@ date: '2024-10-30.23:40'
 拡張機能の管理に[vim-plug](https://github.com/junegunn/vim-plug)を使っていて、
 LSPの設定に[coc.nvim](https://github.com/neoclide/coc.nvim)、ファイラーには[fern](https://github.com/lambdalisue/vim-fern)
 ファジーファインダーとして[telescope](https://github.com/nvim-telescope/telescope.nvim)を用いています。
+![Telescopeの画面](https://dl.kiharu.dev/telescope.png)
 
 何かあっても自分でどうにかできる気がしないので、おおよそメジャーなものを使っていますが、使用感には十分満足しています。
 
