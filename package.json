@@ -15,6 +15,8 @@
 		"test:unit": "vitest"
 	},
 	"devDependencies": {
+		"@mdit/plugin-alert": "^0.14.0",
+		"@mdit/plugin-container": "^0.14.0",
 		"@playwright/test": "^1.44.1",
 		"@shikijs/markdown-it": "^1.6.0",
 		"@sveltejs/adapter-cloudflare": "^5.0.0",
@@ -42,6 +44,7 @@
 	"packageManager": "pnpm@9.15.2",
 	"dependencies": {
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
-		"markdown-it": "^14.1.0"
+		"markdown-it": "^14.1.0",
+		"markdown-it-link-attributes": "^4.0.1"
 	}
 }

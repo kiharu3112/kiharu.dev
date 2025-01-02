@@ -1,7 +1,10 @@
+import { alert } from '@mdit/plugin-alert';
+import { container } from '@mdit/plugin-container';
 import Shiki from '@shikijs/markdown-it';
 import fs from 'fs';
 import matter from 'gray-matter';
 import markdown from 'markdown-it';
+import mila from 'markdown-it-link-attributes';
 import path from 'path';
 import { promisify } from 'util';
 
@@ -13,13 +16,23 @@ md.use(
 		theme: 'github-dark'
 	})
 );
+md.use(alert);
+md.use(container, {
+	name: 'warning'
+});
+md.use(mila, {
+	attrs: {
+		target: '_blank',
+		rel: 'noopener'
+	}
+});
 type Param = {
 	slug: string;
 };
 export async function load({ params }: { params: Param }) {
 	const { slug } = params;
 	const filePath = path.resolve('src/posts', `${slug}.md`);
-	let data: string = '';
+	let data = '';
 	try {
 		data = await readFile(filePath, 'utf-8');
 	} catch (e) {

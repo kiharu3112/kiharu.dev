@@ -14,7 +14,16 @@ importers:
       markdown-it:
         specifier: ^14.1.0
         version: 14.1.0
+      markdown-it-link-attributes:
+        specifier: ^4.0.1
+        version: 4.0.1
     devDependencies:
+      '@mdit/plugin-alert':
+        specifier: ^0.14.0
+        version: 0.14.0(markdown-it@14.1.0)
+      '@mdit/plugin-container':
+        specifier: ^0.14.0
+        version: 0.14.0(markdown-it@14.1.0)
       '@playwright/test':
         specifier: ^1.44.1
         version: 1.49.1
@@ -670,6 +679,23 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
+
+  '@mdit/plugin-alert@0.14.0':
+    resolution: {integrity: sha512-a9/E6AZkCdepiseaS7VzjTPzlDVEpDXbgfspT1V0LVJ0xHiOlPNaUhB4vuRavETFyFmbmx8Lq8SvjvN6VdIz7Q==}
+    peerDependencies:
+      markdown-it: ^14.1.0
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
+
+  '@mdit/plugin-container@0.14.0':
+    resolution: {integrity: sha512-sYjR9GPPkdItjGXw2m4f2iKAvKK+9egq/3wnzNnsouK1Hz0Qz8rQM1VELQLBK16PJwqStGNfTQC31BeM7gVmIg==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      markdown-it: ^14.1.0
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1574,6 +1600,9 @@ packages:
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
+
+  markdown-it-link-attributes@4.0.1:
+    resolution: {integrity: sha512-pg5OK0jPLg62H4k7M9mRJLT61gUp9nvG0XveKYHMOOluASo9OEF13WlXrpAp2aj35LbedAy3QOCgQCw0tkLKAQ==}
 
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
@@ -2585,6 +2614,18 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
+  '@mdit/plugin-alert@0.14.0(markdown-it@14.1.0)':
+    dependencies:
+      '@types/markdown-it': 14.1.2
+    optionalDependencies:
+      markdown-it: 14.1.0
+
+  '@mdit/plugin-container@0.14.0(markdown-it@14.1.0)':
+    dependencies:
+      '@types/markdown-it': 14.1.2
+    optionalDependencies:
+      markdown-it: 14.1.0
+
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -3552,6 +3593,8 @@ snapshots:
   magic-string@0.30.17:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  markdown-it-link-attributes@4.0.1: {}
 
   markdown-it@14.1.0:
     dependencies:

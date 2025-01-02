@@ -58,3 +58,14 @@ h2 {
 .markdown-body img {
   width: 100%;
 }
+
+.markdown-body .warning {
+  background-color: #87742b;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+}
+
+.markdown-body .warning p::before {
+  content: '⚠️';
+  margin-right: 5px;
+}
