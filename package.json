@@ -41,7 +41,7 @@
 		"vitest": "^2.0.0"
 	},
 	"type": "module",
-	"packageManager": "pnpm@9.15.2",
+	"packageManager": "pnpm@9.15.3",
 	"dependencies": {
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"markdown-it": "^14.1.0",
