@@ -16,7 +16,7 @@
 	},
 	"devDependencies": {
 		"@mdit/plugin-alert": "^0.16.0",
-		"@mdit/plugin-container": "^0.14.0",
+		"@mdit/plugin-container": "^0.16.0",
 		"@playwright/test": "^1.44.1",
 		"@shikijs/markdown-it": "^1.6.0",
 		"@sveltejs/adapter-cloudflare": "^5.0.0",
