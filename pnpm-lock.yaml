@@ -32,13 +32,13 @@ importers:
         version: 1.29.1
       '@sveltejs/adapter-cloudflare':
         specifier: ^5.0.0
-        version: 5.0.1(@sveltejs/kit@2.15.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(wrangler@3.57.1(@cloudflare/workers-types@4.20250109.0))
+        version: 5.0.1(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(wrangler@3.57.1(@cloudflare/workers-types@4.20250109.0))
       '@sveltejs/adapter-node':
         specifier: ^5.0.1
-        version: 5.2.12(@sveltejs/kit@2.15.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))
+        version: 5.2.12(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))
       '@sveltejs/kit':
         specifier: ^2.5.10
-        version: 2.15.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))
+        version: 2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^5.0.0
         version: 5.2.1(prettier-plugin-svelte@3.3.3(prettier@3.4.2)(svelte@5.16.1))(prettier@3.4.2)(svelte@5.16.1)
@@ -978,8 +978,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
-  '@sveltejs/kit@2.15.3':
-    resolution: {integrity: sha512-yI1iF1ldC+nyMFuA1cV+IMOROaGu6ogW0WNlTuPU5/3tGk8pQlwOtlbguGY4Fsp8Qf6pQWmG/ZUXRDrhAt62dg==}
+  '@sveltejs/kit@2.16.1':
+    resolution: {integrity: sha512-2pF5sgGJx9brYZ/9nNDYnh5KX0JguPF14dnvvtf/MqrvlWrDj/e7Rk3LBJPecFLLK1GRs6ZniD24gFPqZm/NFw==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -1546,12 +1546,6 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globalyzer@0.1.0:
-    resolution: {integrity: sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==}
-
-  globrex@0.1.2:
-    resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
-
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
@@ -2087,9 +2081,6 @@ packages:
   svelte@5.16.1:
     resolution: {integrity: sha512-FsA1OjAKMAFSDob6j/Tv2ZV9rY4SeqPd1WXQlQkFkePAozSHLp6tbkU9qa1xJ+uTRzMSM2Vx3USdsYZBXd3H3g==}
     engines: {node: '>=18'}
-
-  tiny-glob@0.2.9:
-    resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
 
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
@@ -2947,23 +2938,23 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.1': {}
 
-  '@sveltejs/adapter-cloudflare@5.0.1(@sveltejs/kit@2.15.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(wrangler@3.57.1(@cloudflare/workers-types@4.20250109.0))':
+  '@sveltejs/adapter-cloudflare@5.0.1(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(wrangler@3.57.1(@cloudflare/workers-types@4.20250109.0))':
     dependencies:
       '@cloudflare/workers-types': 4.20250109.0
-      '@sveltejs/kit': 2.15.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))
+      '@sveltejs/kit': 2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))
       esbuild: 0.24.2
       worktop: 0.8.0-next.18
       wrangler: 3.57.1(@cloudflare/workers-types@4.20250109.0)
 
-  '@sveltejs/adapter-node@5.2.12(@sveltejs/kit@2.15.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))':
+  '@sveltejs/adapter-node@5.2.12(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))':
     dependencies:
       '@rollup/plugin-commonjs': 28.0.2(rollup@4.31.0)
       '@rollup/plugin-json': 6.1.0(rollup@4.31.0)
       '@rollup/plugin-node-resolve': 16.0.0(rollup@4.31.0)
-      '@sveltejs/kit': 2.15.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))
+      '@sveltejs/kit': 2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))
       rollup: 4.31.0
 
-  '@sveltejs/kit@2.15.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))':
+  '@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))
       '@types/cookie': 0.6.0
@@ -2978,7 +2969,6 @@ snapshots:
       set-cookie-parser: 2.7.1
       sirv: 3.0.0
       svelte: 5.16.1
-      tiny-glob: 0.2.9
       vite: 6.0.11(@types/node@22.10.10)
 
   '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10)))(svelte@5.16.1)(vite@6.0.11(@types/node@22.10.10))':
@@ -3628,10 +3618,6 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globalyzer@0.1.0: {}
-
-  globrex@0.1.2: {}
-
   graphemer@1.4.0: {}
 
   gray-matter@4.0.3:
@@ -4188,11 +4174,6 @@ snapshots:
       locate-character: 3.0.0
       magic-string: 0.30.17
       zimmerframe: 1.1.2
-
-  tiny-glob@0.2.9:
-    dependencies:
-      globalyzer: 0.1.0
-      globrex: 0.1.2
 
   tinybench@2.9.0: {}
 
