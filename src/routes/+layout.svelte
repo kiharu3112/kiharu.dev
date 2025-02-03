@@ -28,7 +28,7 @@
 <footer>
 	<p>このサイトはSvelteKitを用いて作られています</p>
 	<p>このサイトはCloudflare Analyticsを使用しています。</p>
-	<p>© 2024 kiharu.dev</p>
+	<p>© 2025 kiharu.dev</p>
 </footer>
 
 <style>
