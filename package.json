@@ -18,7 +18,7 @@
 		"@mdit/plugin-alert": "^0.16.0",
 		"@mdit/plugin-container": "^0.16.0",
 		"@playwright/test": "^1.44.1",
-		"@shikijs/markdown-it": "^1.6.0",
+		"@shikijs/markdown-it": "^2.0.0",
 		"@sveltejs/adapter-cloudflare": "^5.0.0",
 		"@sveltejs/adapter-node": "^5.0.1",
 		"@sveltejs/kit": "^2.5.10",
@@ -27,7 +27,7 @@
 		"@typescript-eslint/eslint-plugin": "^8.0.0",
 		"@typescript-eslint/parser": "^8.0.0",
 		"eslint": "^9.0.0",
-		"eslint-config-prettier": "^9.1.0",
+		"eslint-config-prettier": "^10.0.0",
 		"eslint-plugin-svelte": "^2.39.0",
 		"eslint-plugin-unused-imports": "^4.0.0",
 		"gray-matter": "^4.0.3",
@@ -38,7 +38,7 @@
 		"tslib": "^2.6.2",
 		"typescript": "^5.4.5",
 		"vite": "^6.0.0",
-		"vitest": "^2.0.0"
+		"vitest": "^3.0.0"
 	},
 	"type": "module",
 	"packageManager": "pnpm@9.15.4",
