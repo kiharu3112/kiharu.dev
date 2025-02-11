@@ -6,9 +6,8 @@
 			<ul>
 				<li>kiharu</li>
 				<li>年齢: 成人</li>
-				<li>所属: NITMC</li>
 				<li>github: <a href="https://github.com/kiharu3112" target="_blank">kiharu3112</a></li>
-				<li>mail: me[at]kiharu.dev</li>
+				<li>mail: me@kiharu.dev</li>
 			</ul>
 		</div>
 	</div>
