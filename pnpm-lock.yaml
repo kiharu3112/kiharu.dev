@@ -22,8 +22,8 @@ importers:
         specifier: ^0.17.0
         version: 0.17.0(markdown-it@14.1.0)
       '@mdit/plugin-container':
-        specifier: ^0.16.0
-        version: 0.16.0(markdown-it@14.1.0)
+        specifier: ^0.17.0
+        version: 0.17.0(markdown-it@14.1.0)
       '@playwright/test':
         specifier: ^1.44.1
         version: 1.52.0
@@ -710,8 +710,8 @@ packages:
       markdown-it:
         optional: true
 
-  '@mdit/plugin-container@0.16.0':
-    resolution: {integrity: sha512-NCsyEiOmoJvXSEVJSY6vaEcvbE11sciRSx5qXBvQQZxUYGYsB+ObYSFVZDFPezsEN35X3b07rurLx8P2Mi9DgQ==}
+  '@mdit/plugin-container@0.17.0':
+    resolution: {integrity: sha512-Pd0cz/Oghhdn+QIi6ks2JOsifyglV8qjpzLZwASk7EvvGqNTSdIVwCHmieVhjhDHRbZdRwzEF09U9OLLN/jKFg==}
     engines: {node: '>= 18'}
     peerDependencies:
       markdown-it: ^14.1.0
@@ -2752,7 +2752,7 @@ snapshots:
     optionalDependencies:
       markdown-it: 14.1.0
 
-  '@mdit/plugin-container@0.16.0(markdown-it@14.1.0)':
+  '@mdit/plugin-container@0.17.0(markdown-it@14.1.0)':
     dependencies:
       '@types/markdown-it': 14.1.2
     optionalDependencies:
